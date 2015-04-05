@@ -21,6 +21,10 @@ deeper understanding read [Pro Git][4].
 
 The source code for Pinta development is available on [PintaProject GitHub][5].
 
+#### General recommendations
+
+It is suggested to do small changes at first that you get familiar with the way project is operating. For instance look at the [easy to fix bugs][10]. Instead of creating one big fat change like 1000 lines of code change in one commit, please make several small changes and several commits that logically fit together. Please keep in mind, that all of the code has to be reviewed, understood and accepted by maintainer. There should be no hard fillings if maintainer rejects some of the code or reguests to make a change to fit the way maintainer feels is the best for the project. When you decide to create some design changes, it is recommended to first discuss idea on [Pinta mailinglist][11]. Try to get feedback from maintainer as soon as applicable. So small changes, several commits, discussion with maintainer and make some more changes.
+
 #### Fixing a Bug
 
 If you plan to work on a bug that has been registered on our [Launchpad page][1], then go to the relevant bug and make sure no one else is already working on it, then leave a comment saying that you are working on it.
@@ -50,3 +54,5 @@ Pull requests are thoroughly explained [here][9]. You will want to send a pull r
 [7]: https://github.com/PintaProject/Pinta/blob/master/readme.md
 [8]: http://help.github.com/create-a-repo/
 [9]: http://help.github.com/send-pull-requests/
+[10]: https://bugs.launchpad.net/pinta/?field.searchtext=&orderby=-date_last_updated&search=Search&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=easy-to-fix+&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on
+[11]: https://groups.google.com/forum/?hl=en#!forum/pinta
